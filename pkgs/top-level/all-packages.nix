@@ -740,6 +740,8 @@ with pkgs;
 
   glyr = callPackage ../tools/audio/glyr { };
 
+  hammerspoon = callPackage ../applications/misc/hammerspoon { };
+
   httperf = callPackage ../tools/networking/httperf { };
 
   imgpatchtools = callPackage ../development/mobile/imgpatchtools { };
